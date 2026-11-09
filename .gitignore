@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# experiment outputs - tracked in MLflow, not in git
+mlruns/
+checkpoints/
+*.pt
+.DS_Store
